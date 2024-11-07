@@ -59,11 +59,11 @@ https://helloclue.com/articles
 - **Negativo:** Mucho texto.
 
 **5. Clue: Encyclopedia: Menstrual Cycle: Puberty**
-- https://helloclue.com/articles/puberty
+https://helloclue.com/articles/puberty
 - **Positivo:** Uso de tarjetas con ilustraciones alusivas a las temásticas.
 - **Negativo:** Mucho texto en cada tarjeta.
 
-  **6. Menstrupedia**
+**6. Menstrupedia**
 https://www.menstrupedia.com/quickguide/girls 
 - **Positivo:** Tarjetas con imagenes alucivas al tema. Las descripciones son cortas y claras. Cada tema se complementa de una imagen explicativa.
 - **Negativo:** El contenido es dirigido a niñas pero no es llamativo.
