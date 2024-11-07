@@ -53,5 +53,15 @@ https://www.nosotrasonline.cl/productos/durante-tu-periodo/
 - **Positivo:** Uso de tarjetas con hover para indicar claramente que es un botón. Al revisar las categorías de productos, se eleva una descripción de cada uno.
 - **Negativo:** Solo muestra el empaque del producto y no se entiende solo con la imagen qué es.
 
+**4. Clue: Encyclopedia**
+https://helloclue.com/articles
+- **Positivo:** Selector de categorías de contenido con ilustraciones y hover. Descripción y "portada" para cada tema.
+- **Negativo:** Mucho texto.
+
+**5. Clue: Encyclopedia: Menstrual Cycle: Puberty**
+- https://helloclue.com/articles/puberty
+- **Positivo:** Uso de tarjetas con ilustraciones alusivas a las temásticas.
+- **Negativo:** Mucho texto en cada tarjeta.
+
 ## 4. ¿Qué existe que es similar a la propuesta? (Referentes)
 No shé.
