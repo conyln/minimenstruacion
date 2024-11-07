@@ -38,7 +38,20 @@ Sofía, 12 años, escolar de 6° básico
 Sofía entrará al sitio porque su profesora lo recomendó, pero solo se quedará si el contenido es visual y fácil de leer. Se sentirá atraída por ilustraciones, cómics o datos curiosos, y preferirá las secciones que presenten información de forma liviana y entretenida. Si algo le resulta divertido o diferente, es probable que quiera comentarlo con sus amigas.
 
 ## 3. ¿Qué existe que es similar a la propuesta? (Antecedentes)
-No shé.
+**1. Menstrupedia**
+https://www.menstrupedia.com/quickguide/girls 
+- **Positivo:** Tarjetas con imagenes alucivas al tema. Las descripciones son cortas y claras. Cada tema se complementa de una imagen explicativa.
+- **Negativo:** El contenido es dirigido a niñas pero no es llamativo.
+
+**2. Nosotras: Entre Nosotras: Cuidado Femenino: Menstruación**
+https://www.nosotrasonline.cl/entre-nosotras/cuidado-femenino/ 
+- **Positivo:** Tarjetas con imagenes alucivas a los temas tratados en cada artífuclo. Se usa una paleta de colores clara y hay una hegemonía en la línea de las imagenes.
+- **Negativo:** El contenido no está dirigido a niñas y el texto es extenso y no se complementa con imagenes o ilustraciones para su explicación.
+
+**3. Nosotras: Productos: Durante tu periodo**
+https://www.nosotrasonline.cl/productos/durante-tu-periodo/
+- **Positivo:** Uso de tarjetas con hover para indicar claramente que es un botón. Al revisar las categorías de productos, se eleva una descripción de cada uno.
+- **Negativo:** Solo muestra el empaque del producto y no se entiende solo con la imagen qué es.
 
 ## 4. ¿Qué existe que es similar a la propuesta? (Referentes)
 No shé.
