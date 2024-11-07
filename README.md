@@ -63,5 +63,11 @@ https://helloclue.com/articles
 - **Positivo:** Uso de tarjetas con ilustraciones alusivas a las temásticas.
 - **Negativo:** Mucho texto en cada tarjeta.
 
+  **6. Menstrupedia**
+https://www.menstrupedia.com/quickguide/girls 
+- **Positivo:** Tarjetas con imagenes alucivas al tema. Las descripciones son cortas y claras. Cada tema se complementa de una imagen explicativa.
+- **Negativo:** El contenido es dirigido a niñas pero no es llamativo.
+
 ## 4. ¿Qué existe que es similar a la propuesta? (Referentes)
-No shé.
+![m](https://github.com/user-attachments/assets/779d2c21-f1e7-4990-b810-4de1aad0a5ac)
+
