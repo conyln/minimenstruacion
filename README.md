@@ -32,10 +32,10 @@ Isidora llegará al sitio web después de buscar "qué es la menstruación expli
 Sofía, 12 años, escolar de 6° básico
 - **Objetivos de vida:** Pasarla bien en clase y hacer reír a sus amigos con cualquier cosa que encuentre graciosa  
 - **Personalidad:** Chistosa y despreocupada  
-- **Motivaciones:** Su profesora de ciencias recomendó la página como parte de una actividad sobre el cuerpo humano. A Martina le da curiosidad saber un poco más sobre la menstruación, pero sobre todo espera encontrar algo divertido o interesante que pueda compartir con sus amigos.  
-- **Frustraciones:** Se aburre con facilidad y pierde interés rápidamente si un sitio no tiene dibujos o ilustraciones. No le gustan los textos largos ni las explicaciones serias.  
+- **Motivaciones:** Su profesora de ciencias naturales recomendó la página como parte de una actividad sobre el sistema reproductivo. A Sofía le da un poco curiosidad saber un poco más sobre la menstruación, pero sobre todo espera encontrar algo divertido o interesante.  
+- **Frustraciones:** Se aburre con facilidad y pierde interés rápidamente si el contenido no es entretenido, o sea, si no contiene videos o ilustraciones. No le gustan los textos largos ni las explicaciones serias.  
 **Descripción de su comportamiento en el sitio web:**  
-Martina entrará al sitio porque su profesora lo recomendó, pero solo se quedará si el contenido es visual y fácil de leer. Se sentirá atraída por ilustraciones, cómics o datos curiosos, y preferirá las secciones que presenten información de forma liviana y entretenida. Si algo le resulta divertido o diferente, es probable que quiera comentarlo con sus amigos.
+Sofía entrará al sitio porque su profesora lo recomendó, pero solo se quedará si el contenido es visual y fácil de leer. Se sentirá atraída por ilustraciones, cómics o datos curiosos, y preferirá las secciones que presenten información de forma liviana y entretenida. Si algo le resulta divertido o diferente, es probable que quiera comentarlo con sus amigas.
 
 ## 3. ¿Qué existe que es similar a la propuesta? (Antecedentes)
 No shé.
