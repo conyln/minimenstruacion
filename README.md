@@ -1,4 +1,4 @@
-# SE LLAMA MENSTRUACIÓN
+# MIniMENSTRUACIÓN
 
 ## 1. ¿Para qué es esta propuesta?
 
