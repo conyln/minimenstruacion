@@ -1,5 +1,4 @@
 # MIniMENSTRUACIÓN
-## Clase 14 (avance)
 
 ## 1. ¿Para qué es esta propuesta?
 
@@ -64,13 +63,12 @@ https://helloclue.com/articles/puberty
 - **Positivo:** Uso de tarjetas con ilustraciones alusivas a las temásticas.
 - **Negativo:** Mucho texto en cada tarjeta.
 
-**6. Menstrupedia**
-https://www.menstrupedia.com/quickguide/girls 
-- **Positivo:** Tarjetas con imagenes alucivas al tema. Las descripciones son cortas y claras. Cada tema se complementa de una imagen explicativa.
-- **Negativo:** El contenido es dirigido a niñas pero no es llamativo.
+**6. V-Land: Experiencia en Roblox sobre la menstruación**
+https://www.roblox.com/es/games/13487274864/V-Land
+https://www.essity.com/media/news-features/2023/virtual-world-to-normalize-menstruation-in-roblox/ 
+- **Positivo:** Uso de dialogos y pop-up para contener información que explica de forma amigable datos sobre la menstruación.
+- **Negativo:** A veces los elementos utilizados dentro de la experiencia no explican qué son.
 
 ## 4. ¿Qué existe que es similar a la propuesta? (Referentes)
 ![m](https://github.com/user-attachments/assets/779d2c21-f1e7-4990-b810-4de1aad0a5ac)
-
-## Clase 15 (avance)
 
