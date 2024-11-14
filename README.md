@@ -1,4 +1,5 @@
 # MIniMENSTRUACIÓN
+## Clase 14 (avance)
 
 ## 1. ¿Para qué es esta propuesta?
 
@@ -70,4 +71,6 @@ https://www.menstrupedia.com/quickguide/girls
 
 ## 4. ¿Qué existe que es similar a la propuesta? (Referentes)
 ![m](https://github.com/user-attachments/assets/779d2c21-f1e7-4990-b810-4de1aad0a5ac)
+
+## Clase 15 (avance)
 
