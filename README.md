@@ -70,5 +70,6 @@ https://www.essity.com/media/news-features/2023/virtual-world-to-normalize-menst
 - **Negativo:** A veces los elementos utilizados dentro de la experiencia no explican qué son.
 
 ## 4. ¿Qué existe que es similar a la propuesta? (Referentes)
-![m](https://github.com/user-attachments/assets/779d2c21-f1e7-4990-b810-4de1aad0a5ac)
+![1](https://github.com/user-attachments/assets/dda6f32e-f2d0-4093-84c0-1054d1bd94f6)
 
+# ♡
