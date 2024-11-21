@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-<!-- Primary Meta Tags -->
+        <!-- Primary Meta Tags -->
         <title>MiniMENSTRUACIÓN</title>
         <meta name="title" content="MiniMENSTRUACIÓN" />
         <meta name="description" content="Menstruación para niñas. ¿Qué es la menstruación? ¿Por qué sangro? Explicación del ciclo menstrual entretenido." />
 
-<!-- Open Graph / Facebook -->
+        <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://minimenstruacion.cl/" />
         <meta property="og:title" content="MiniMENSTRUACIÓN" />
         <meta property="og:description" content="Menstruación para niñas. ¿Qué es la menstruación? ¿Por qué sangro? Explicación del ciclo menstrual entretenido." />
         <meta property="og:image" content="https://minimenstruacion.cl/images/minimenstruacion.jpg" />
 
-<!-- Twitter -->
+        <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://minimenstruacion.cl/" />
         <meta property="twitter:title" content="MiniMENSTRUACIÓN" />
         <meta property="twitter:description" content="Menstruación para niñas. ¿Qué es la menstruación? ¿Por qué sangro? Explicación del ciclo menstrual entretenido." />
         <meta property="twitter:image" content="https://minimenstruacion.cl/images/minimenstruacion.jpg" />
 
-<!-- Additional Meta -->
+        <!-- Additional Meta -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!-- Bootstrap CSS -->
+        <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-<!-- Estilos (Recordar hacer el CSS) -->      
+        <!-- Estilos -->
         <style>
+            body {
+                background-color: #ffe3ec;
+                font-family: Arial, sans-serif;
+            }
+
             .navbar-pink {
                 background-color: #ff69b4;
             }
@@ -45,61 +50,74 @@
                 color: #b15ddb;
             }
 
-            .timeline {
+            .circle-timeline {
                 position: relative;
-                padding-left: 20px;
-                border-left: 2px solid #ff69b4;
-            }
-
-            .timeline-item {
-                margin-bottom: 20px;
-                display: flex;
-                align-items: center;
-            }
-
-            .timeline-img {
-                width: 100px;
-                height: 100px;
-                object-fit: cover;
+                width: 400px;
+                height: 400px;
+                margin: 50px auto;
                 border-radius: 50%;
-                border: 3px solid #ff69b4;
-                margin-right: 15px;
-            }
-
-            .timeline-content {
+                border: 5px solid #f18bb8;
                 background: #ffe6f0;
-                padding: 10px 15px;
-                border-radius: 10px;
-                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
             }
 
-            .timeline-content h4 {
-                margin: 0 0 5px 0;
+            .circle-timeline-item {
+                position: absolute;
+                width: 180px;
+                height: 180px;
+                text-align: center;
+                transform: translate(-50%, -50%);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background: #fff;
+                border-radius: 50%;
+                border: 4px solid #ff69b4;
+                transition: transform 0.2s, background-color 0.2s;
+            }
+
+            .circle-timeline-item:hover {
+                transform: translate(-50%, -50%) scale(1.2);
+                background-color: #ffe6f0;
+            }
+
+            .circle-timeline-item img {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                margin-bottom: 5px;
+            }
+
+            .circle-timeline-item h4 {
                 color: #ff69b4;
-            }
-
-            .timeline-content p {
-                margin: 0;
                 font-size: 14px;
+                margin: 0;
             }
 
-            .timeline-content a {
-                color: #ff69b4;
-                text-decoration: underline;
+            .menstruacion {
+                top: 50%;
+                left: 5%;
             }
 
-            .timeline-content a:hover {
-                color: #ff4081;
+            .folicular {
+                top: 0%;
+                left: 50%;
             }
 
-            .card-body {
-                padding: 20px;
+            .ovulatoria {
+                top: 50%;
+                left: 95%;
+            }
+
+            .lutea {
+                top: 95%;
+                left: 50%;
             }
         </style>
     </head>
-    
+
     <body>
-<!-- Navbar Preguntas-->
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-pink bg-pink">
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="#">MiniMENSTRUACIÓN</a>
@@ -136,66 +154,26 @@
             </div>
         </nav>
 
-<!-- Timeline Ciclo Menstrual -->
+        <!-- Ciclo Menstrual Circular -->
         <div class="container mt-5">
-            <h2 class="text-center mb-4">CICLO MENSTRUAL</h2>
-            <div class="timeline">
-<!-- Menstruación -->
-                <div class="timeline-item">
-                    <a href="detalle_menstruacion.html" class="card-link">
-                        <div class="card">
-                            <div class="card-body d-flex align-items-center">
-                                <img src="https://minimenstruacion.cl/images/menstruacion.jpg" alt="Menstruación" class="timeline-img" />
-                                <div class="timeline-content">
-                                    <h4>MENSTRUACIÓN</h4>
-                                    <p>El ciclo menstrual se inicia con la bajada de la menstruación.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-<!-- Fase Follicular -->
-                <div class="timeline-item">
-                    <a href="detalle_folicular.html" class="card-link">
-                        <div class="card">
-                            <div class="card-body d-flex align-items-center">
-                                <img src="https://minimenstruacion.cl/images/folicular.jpg" alt="Fase Folicular" class="timeline-img" />
-                                <div class="timeline-content">
-                                    <h4>FASE FOLICULAR</h4>
-                                    <p>Crecimiento de los folículos ováricos, desde el inicio de la menstruación hasta la ovulación.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-<!-- Fase Ovulatoria -->
-                <div class="timeline-item">
-                    <a href="detalle_ovulatoria.html" class="card-link">
-                        <div class="card">
-                            <div class="card-body d-flex align-items-center">
-                                <img src="https://minimenstruacion.cl/images/ovulatoria.jpg" alt="Fase Ovulatoria" class="timeline-img" />
-                                <div class="timeline-content">
-                                    <h4>FASE OVULATORIA</h4>
-                                    <p>El folículo de Graaf se rompe y el óvulo maduro que contiene en su interior es liberado a la trompa de Falopio.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-<!-- Fase Lútea -->
-                <div class="timeline-item">
-                    <a href="detalle_lutea.html" class="card-link">
-                        <div class="card">
-                            <div class="card-body d-flex align-items-center">
-                                <img src="https://minimenstruacion.cl/images/lutea.jpg" alt="Fase Lútea" class="timeline-img" />
-                                <div class="timeline-content">
-                                    <h4>FASE LÚTEA</h4>
-                                    <p>Empieza justo después de la ovulación y dura hasta el final del ciclo menstrual, o sea, hasta que vuelve el sangrado menstrual.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            <h2 class="text-center">CICLO MENSTRUAL</h2>
+            <div class="circle-timeline">
+                <a href="detalle_menstruacion.html" class="circle-timeline-item menstruacion">
+                    <img src="https://minimenstruacion.cl/images/menstruacion.jpg" alt="Menstruación" />
+                    <h4>MENSTRUACIÓN</h4>
+                </a>
+                <a href="detalle_folicular.html" class="circle-timeline-item folicular">
+                    <img src="https://minimenstruacion.cl/images/folicular.jpg" alt="Fase Folicular" />
+                    <h4>FASE FOLICULAR</h4>
+                </a>
+                <a href="detalle_ovulatoria.html" class="circle-timeline-item ovulatoria">
+                    <img src="https://minimenstruacion.cl/images/ovulatoria.jpg" alt="Fase Ovulatoria" />
+                    <h4>FASE OVULATORIA</h4>
+                </a>
+                <a href="detalle_lutea.html" class="circle-timeline-item lutea">
+                    <img src="https://minimenstruacion.cl/images/lutea.jpg" alt="Fase Lútea" />
+                    <h4>FASE LÚTEA</h4>
+                </a>
             </div>
         </div>
 
