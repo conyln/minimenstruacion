@@ -39,41 +39,41 @@ Sofía entrará al sitio porque su profesora lo recomendó, pero solo se quedar�
 
 ## 3. ¿Qué existe que es similar a la propuesta? (Antecedentes)
 **1. Menstrupedia**
-https://www.menstrupedia.com/quickguide/girls 
+- https://www.menstrupedia.com/quickguide/girls 
 - **Positivo:** Tarjetas con imagenes alucivas al tema. Las descripciones son cortas y claras. Cada tema se complementa de una imagen explicativa.
 - **Negativo:** El contenido es dirigido a niñas pero no es llamativo.
 
 **2. Nosotras: Entre Nosotras: Cuidado Femenino: Menstruación**
-https://www.nosotrasonline.cl/entre-nosotras/cuidado-femenino/ 
+- https://www.nosotrasonline.cl/entre-nosotras/cuidado-femenino/ 
 - **Positivo:** Tarjetas con imagenes alucivas a los temas tratados en cada artífuclo. Se usa una paleta de colores clara y hay una hegemonía en la línea de las imagenes.
 - **Negativo:** El contenido no está dirigido a niñas y el texto es extenso y no se complementa con imagenes o ilustraciones para su explicación.
 
 **3. Nosotras: Productos: Durante tu periodo**
-https://www.nosotrasonline.cl/productos/durante-tu-periodo/
+- https://www.nosotrasonline.cl/productos/durante-tu-periodo/
 - **Positivo:** Uso de tarjetas con hover para indicar claramente que es un botón. Al revisar las categorías de productos, se eleva una descripción de cada uno.
 - **Negativo:** Solo muestra el empaque del producto y no se entiende solo con la imagen qué es.
 
 **4. Clue: Encyclopedia**
-https://helloclue.com/articles
+- https://helloclue.com/articles
 - **Positivo:** Selector de categorías de contenido con ilustraciones y hover. Descripción y "portada" para cada tema.
 - **Negativo:** Mucho texto.
 
 **5. Clue: Encyclopedia: Menstrual Cycle: Puberty**
-https://helloclue.com/articles/puberty
+- https://helloclue.com/articles/puberty
 - **Positivo:** Uso de tarjetas con ilustraciones alusivas a las temásticas.
 - **Negativo:** Mucho texto en cada tarjeta.
 
 **6. V-Land: Experiencia en Roblox sobre la menstruación**
-https://www.roblox.com/es/games/13487274864/V-Land
-https://www.essity.com/media/news-features/2023/virtual-world-to-normalize-menstruation-in-roblox/ 
+- https://www.roblox.com/es/games/13487274864/V-Land
+- https://www.essity.com/media/news-features/2023/virtual-world-to-normalize-menstruation-in-roblox/ 
 - **Positivo:** Uso de dialogos y pop-up para contener información que explica de forma amigable datos sobre la menstruación.
 - **Negativo:** A veces los elementos utilizados dentro de la experiencia no explican qué son.
 
 **7. Había una vez una Menarquia** 
-https://menarquia.cl/
+- https://menarquia.cl/
 Es un proyecto de difusión y educación menstrual para niñas y adolescentes.
--**Positivo:** Linea gráfica y contenido hecho especialmente para niñas.
--**Negativo:** El contenido informativo es únicamente video.
+- **Positivo:** Linea gráfica y contenido hecho especialmente para niñas.
+- **Negativo:** El contenido informativo es únicamente video.
 
 ## 4. ¿Qué existe que es similar a la propuesta? (Referentes)
 ![1](https://github.com/user-attachments/assets/dda6f32e-f2d0-4093-84c0-1054d1bd94f6)
