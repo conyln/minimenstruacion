@@ -69,6 +69,12 @@ https://www.essity.com/media/news-features/2023/virtual-world-to-normalize-menst
 - **Positivo:** Uso de dialogos y pop-up para contener información que explica de forma amigable datos sobre la menstruación.
 - **Negativo:** A veces los elementos utilizados dentro de la experiencia no explican qué son.
 
+**7. Había una vez una Menarquia** 
+https://menarquia.cl/
+Es un proyecto de difusión y educación menstrual para niñas y adolescentes.
+-**Positivo:** Linea gráfica y contenido hecho especialmente para niñas.
+-**Negativo:** El contenido informativo es únicamente video.
+
 ## 4. ¿Qué existe que es similar a la propuesta? (Referentes)
 ![1](https://github.com/user-attachments/assets/dda6f32e-f2d0-4093-84c0-1054d1bd94f6)
 
