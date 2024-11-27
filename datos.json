@@ -1,0 +1,46 @@
+[
+    {
+        "titulo": "¿Qué es la menstruación?",
+        "img_prev_1": "",
+        "img_prev_2": "",
+        "cuerpo": [
+            "La menstruación es una fase del ciclo menstrual 🤓",
+            "La menstruación es la expulsión del endometrio por la vagina y no por la uretra, el endometrio saldrá como una mezcla de sangre y tejidos, puede ser líquido y viscoso 🩸",
+            "¡Todo estará bien! 😄 Tu útero expulsará el endometrio para formar uno nuevo el próximo mes"
+        ],
+        "img": []
+    },
+
+    {
+        "titulo": "¿Qué es la menarquia?",
+        "img_prev_1": "",
+        "img_prev_2": "",
+        "cuerpo": [
+            "La menarquía es la primera menstruación de tu vida 😮 Puede ocurrir en cualquier momento, entre los 9 años a 14 años",
+            "La menarquia significa que tu útero se está desarrollando bien y que tu cuerpo comenzará a cambiar ☺️",
+            "La menarquia no significa que te has convertido en una señorita ni mujercita 🤗 ¡Eres una niña en crecimiento! 💪"
+        ],
+        "img": ["", "", ""]
+    },
+
+    {
+        "titulo": "¿Qué es el ciclo menstrual?",
+        "img_prev_1": "",
+        "img_prev_2": "",
+        "cuerpo": ["", "", ""],
+        "img": ["1_ciclo.png", "2.ciclo.png", "3.ciclo.png", "4.ciclo.png", "5.ciclo.png"]
+    },
+
+    {
+        "titulo": "¿Qué deberé usar durante la menstruación",
+        "img_prev_1": "",
+        "img_prev_2": "",
+        "cuerpo": [
+            "Para contener el flujo menstrual durante la menstruación, debes usar productos de higiene menstrual que sean cómodos para ti 🩸🫧",
+            "Toallas higiénicas desechables: Son unas almohadillas suaves, que se adhieren a la ropa interior. Se cambian varias veces al día. Cuando se terminan de usar, se se botan en la basura 🚮",
+            "Toallas higiénicas reutilizables: Son unas almohadillas suaves de tela absorbente. Se cambiar varias veces al día. Cuando se termina de usar se debe lavar con agua 💧",
+            "Calzón menstrual: Son calzones con tela absorbente, son un poco más gruesos que los calzones normales. Se cambian una o dos veces al día. Cuando se terminan de usar se deben lavar con agua 💧"
+        ],
+        "img": ["1_productos.png", "2_productos.png", "3_productos.png", "4_productos.png"]
+    }
+]
