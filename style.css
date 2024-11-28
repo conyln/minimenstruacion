@@ -3,8 +3,13 @@
 
 /* Estilos generales del cuerpo */
 body {
-    background-color: lightpink; /* Color de fondo*/
+    background-color: LavenderBlush; /* Color de fondo*/
     font-family: "Fredoka", sans-serif; /* Fuentes, sans-serif como respaldo */
+}
+
+.content-container {
+    max-width: 80%;
+    margin: 0 auto; /* Center content horizontally */
 }
 
 /* Estilos para la barra de navegación */
@@ -12,51 +17,64 @@ body {
     background-color: hotpink; /* Color de fondo */
 }
 
+.navbar-brand img {
+    background: transparent;
+}
+
+/* Add margin to the logo and button */
+.navbar-brand {
+    margin-left: 10em; /* Adjust as needed */
+}
+
+.btn {
+    margin-right: 12em; /* Adjust as needed */
+}
+
 encabezado {
-    color: deeppink;
-    padding-top: 3%;
+    color: hotpink;
+    padding-top: 4%;
     padding-bottom: 2%;
     display: block;
-    text-align: center; /* Centers text horizontally */
+    text-align: center; /* Centers text */
 }
 
 /* Estilos del grid de Bento */
 .bento-grid {
     display: grid; /* Utiliza un grid para organizar los elementos */
-    grid-template-columns: repeat(6, 1fr); /* Crea 6 columnas de igual tamaño (1 fracción cada una) */
-    grid-auto-rows: minmax(220px, auto); /* Las filas tendrán un tamaño mínimo de 220px, pero pueden crecer según el contenido */
+    grid-template-columns: repeat(2, 1fr); /* Crea 6 columnas de igual tamaño (1 fracción cada una) */
+    grid-auto-rows: minmax(200px, auto); /* Las filas tendrán un tamaño mínimo de 220px, pero pueden crecer según el contenido */
     gap: 20px; /* Espacio entre las celdas del grid */
 }
 
 .bento-grid .card {
-    position: relative; /* Posiciona las tarjetas de manera relativa para usar las posiciones absolutas dentro de ellas */
-    overflow: hidden; /* Oculta el contenido que se desborda de la tarjeta */
+    position: relative; /* Posiciona las cards de manera relativa para usar las posiciones absolutas dentro de ellas */
+    overflow: hidden; /* Oculta el contenido que se desborda de la card */
 }
 
 /* Hover de cards */
 .card .card-img-overlay {
-    position: absolute; /* Posiciona la superposición de la imagen de manera absoluta dentro de la tarjeta */
+    position: absolute; /* Posiciona la superposición de la imagen de manera absoluta dentro de la card */
     top: 0;
     left: 0;
-    width: 100%; /* Cubre todo el ancho de la tarjeta */
-    height: 100%; /* Cubre toda la altura de la tarjeta */
-    background-size: cover; /* La imagen de fondo cubre toda la tarjeta manteniendo su aspecto */
+    width: 100%; /* Cubre todo el ancho de la card */
+    height: 100%; /* Cubre toda la altura de la card */
+    background-size: cover; /* La imagen de fondo cubre toda la card manteniendo su aspecto */
     background-position: center; /* Centra la imagen de fondo */
-    transition: opacity 0.4s ease-in-out; /* Transición suave de la opacidad al pasar el ratón */
+    transition: opacity 0.2s ease-in-out; /* Transición suave de la opacidad al pasar el ratón */
 }
 .card .hover-img {
     opacity: 0; /* La imagen con clase .hover-img es invisible inicialmente */
 }
 .card:hover .hover-img {
-    opacity: 1; /* Al pasar el ratón sobre la tarjeta, la imagen con clase .hover-img se vuelve visible */
+    opacity: 1; /* Al pasar el ratón sobre la card, la imagen con clase .hover-img se vuelve visible */
 }
 .card:hover .initial-img {
-    opacity: 0; /* Al pasar el ratón sobre la tarjeta, la imagen inicial (.initial-img) se vuelve invisible */
+    opacity: 0; /* Al pasar el ratón sobre la card, la imagen inicial (.initial-img) se vuelve invisible */
 }
 
 /* Estilos del contenido dentro de las cards */
 .card-body {
-    position: absolute; /* Posiciona el contenido de la tarjeta de manera absoluta */
+    position: absolute; /* Posiciona el contenido de la card de manera absoluta */
     color: white; /* El texto del contenido es blanco */
     bottom: 1rem; /* Lo posiciona desde el fondo */
     left: 1rem; /* Lo posiciona desde la izquierda */
@@ -69,10 +87,6 @@ encabezado {
 /* Añadir un enlace invisible que cubre toda la card */
 .stretched-link::after {
     position: absolute; /* Posiciona el enlace de manera absoluta */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     z-index: 1; /* Enlace está por encima de las cards */
     pointer-events: auto; /* Habilita los eventos de puntero sobre este enlace */
     content: ""; /* No tiene contenido visible, solo actúa como área de enlace */
@@ -81,49 +95,30 @@ encabezado {
 /* Estilos para el carrusel */
 #demo {
     background: radial-gradient(circle, rgba(255, 139, 190, 1) 0%, rgba(255, 51, 135, 1) 100%); /* Color de fondo */
-    max-width: 1000px; /* Ancho máximo de carousel */
-    max-height: 750px; /* Altura máxima de carousel */
-    border-radius: 40px; /* Bordes redondeados */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Altura fija del carrusel, puedes ajustar según sea necesario */
+    max-width: 100%; /* Limita el ancho máximo al 100% del contenedor */
+    border-radius: 30px; /* Bordes redondeados */
     margin: auto; /* Centra el carrusel horizontalmente */
     overflow: hidden; /* Asegura que el contenido no sobresalga de los bordes redondeados */
 }
 
-/* Estilos de la leyenda del carrusel */
+/* Estilos de la cuerpo del carrusel */
 .carousel-caption {
-    position: initial; /* La leyenda se posiciona con el flujo normal del documento */
-    z-index: 1; /* Asegura que la leyenda esté por encima del contenido */
+    position: initial; /* La cuerpo se posiciona con el flujo normal del documento */
+    z-index: 1; /* Asegura que la cuerpo esté por encima del contenido */
     padding: 6rem 10rem; /* Espaciado interno de 6rem arriba y abajo, 10rem a los lados */
-    color: white; /* El texto de la leyenda será blanco */
-    text-align: center; /* Centra el texto de la leyenda */
-    font-size: 1.5rem; /* El tamaño de fuente será de 2rem */
-    font-style: regular; /* Estilo de fuente regular */
-    font-weight: regular; /* Peso de fuente regular */
+    color: white; /* El texto de la cuerpo será blanco */
+    text-align: center; /* Centra el texto de la cuerpo */
+    font-size: 1.5rem; /* Tamaño de fuente */
+    font-weight: medium; /* Peso de fuente regular */
     line-height: 2rem; /* Altura de línea, espacio entre las líneas de texto */
 }
 
-/* Estilos para las imágenes dentro de la leyenda del carrusel */
-.carousel-caption img {
-    width: 25rem; /* La imagen tendrá un ancho de 25rem */
-    border-radius: 5rem; /* Bordes redondeados de 5rem */
-    margin-bottom: 2rem; /* Un margen de 2rem debajo de la imagen */
-    z-index: -1; /* Coloca la imagen detrás del texto de la leyenda */
-}
-
-/* Estilos para el pie de la imagen en el carrusel */
-#image-caption {
-    font-style: normal; /* Estilo de fuente normal */
-    font-size: 1rem; /* Tamaño de fuente de 1rem */
-    margin-top: 3rem; /* Un margen superior de 3rem */
-}
-
-/* Ajustes para pantallas pequeñas (menos de 767px) en el pie de la imagen */
-@media (max-width: 767px) {
-    #image-caption {
-        font-style: normal; /* Mantiene el estilo normal de fuente */
-        font-size: 1rem; /* Tamaño de fuente ajustado */
-        margin-top: 0.5rem; /* Reduce el margen superior */
-        z-index: -1; /* Coloca el pie de imagen detrás de otros elementos */
-    }
+/* Estilos para las imágenes dentro de la cuerpo del carrusel */
+.carousel-inner img {
+    height: 40%; /* Altura del que carrusel que las imágenes ocuparán */
+    object-fit: cover; /* Asegura que las imágenes se ajusten bien sin distorsionarse */
 }
 
 /* Contenedor del carrusel para centrarlo vertical y horizontalmente */
@@ -140,44 +135,48 @@ encabezado {
     position: absolute; /* Los botones se posicionan de manera absoluta dentro del contenedor */
     top: 50%; /* Centra los botones verticalmente */
     transform: translateY(-50%); /* Ajusta la posición vertical para centrar exacto */
-    background: none; /* Sin fondo */
-    border: none; /* Sin borde */
-    width: 60px; /* Ancho de 60px */
-    height: 60px; /* Alto de 60px */
+    width: 100px; /* Ancho */
+    height: 100px; /* Alto */
     display: flex; /* Usa Flexbox para centrar el contenido dentro del botón */
-    align-items: center; /* Centra el contenido verticalmente */
-    justify-content: center; /* Centra el contenido horizontalmente */
 }
 
 /* Botón triangular izquierdo */
 .carousel-control-prev::before {
     content: "";
     display: block;
-    width: 0;
-    height: 0;
     border-style: solid;
-    border-width: 25px 35px 25px 0;
-    border-color: transparent pink transparent transparent;
+    border-width: 35px 50px 35px 0;
+    border-color: transparent white transparent transparent;
 }
 
 /* Botón triangular derecho */
 .carousel-control-next::before {
     content: "";
     display: block;
-    width: 0;
-    height: 0;
     border-style: solid;
-    border-width: 25px 0 25px 35px;
-    border-color: transparent transparent transparent pink;
+    border-width: 35px 0 35px 50px;
+    border-color: transparent transparent transparent white;
 }
 
-/* Botón de retroceso (izquierda) */
-.carousel-control-prev::before {
-    content: ""; /* No tiene contenido visible, solo usa bordes */
-    display: block;
+/* Media queries para hacer el carrusel más pequeño en pantallas más pequeñas */
+@media (max-width: 768px) {
+    #demo {
+        height: 300px; /* Reduce la altura en pantallas pequeñas */
+    }
+
+    .carousel-caption {
+        font-size: 1.2rem; /* Ajusta el tamaño del texto para pantallas pequeñas */
+        padding: 3rem 5rem; /* Ajusta el padding de la caption */
+    }
 }
 
-.carousel-inner {
-    height: 500px; /* Set a fixed height for the carousel */
-    overflow: hidden; /* Prevent overflowing content */
+@media (max-width: 576px) {
+    #demo {
+        height: 250px; /* Reduce aún más la altura en pantallas muy pequeñas */
+    }
+
+    .carousel-caption {
+        font-size: 1rem; /* Ajusta el tamaño del texto para pantallas más pequeñas */
+        padding: 2rem 3rem; /* Reduce el padding */
+    }
 }
