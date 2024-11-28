@@ -10,7 +10,6 @@
         ],
         "img": ["1_menstruacion.png", "2_menstruacion.png", "3_menstruacion.png"]
     },
-
     {
         "titulo": "¿Qué es la menarquia?",
         "img_prev_1": "prev_1_menarquia.jpg",
@@ -22,7 +21,6 @@
         ],
         "img": ["1_menarquia.png", "2_menarquia.png", "3_menarquia.png"]
     },
-
     {
         "titulo": "¿Qué es el ciclo menstrual?",
         "img_prev_1": "prev_1_ciclo.jpg",
@@ -30,7 +28,6 @@
         "cuerpo": ["a", "b", "c"],
         "img": ["1_ciclo.png", "2.ciclo.png", "3.ciclo.png", "4.ciclo.png", "5.ciclo.png"]
     },
-
     {
         "titulo": "¿Qué deberé usar durante la menstruación",
         "img_prev_1": "prev_1_productos.jpg",
