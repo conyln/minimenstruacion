@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <!-- Vinculamos los estilos de Bootstrap y el archivo CSS personal -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="style.css" />
     </head>
@@ -10,17 +9,12 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-pink bg-pink">
             <div class="container-fluid">
-                <a class="navbar-brand text-white" href="index.html">MiniMENSTRUACIÓN</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <!-- Aquí irían los enlaces de navegación si los necesitas -->
-                        </li>
-                    </ul>
-                </div>
+                <!-- Logo  -->
+                <a class="navbar-brand" href="https://minimenstruacion.cl/">
+                    <img src="minim_logo_claro.svg" alt="MINIMENSTRUACIÓN" height="60" />
+                </a>
+                <!-- Botones -->
+                <a href="https://minimenstruacion.cl/" class="btn btn-light">inicio</a>
             </div>
         </nav>
 
@@ -28,7 +22,7 @@
         <encabezado> </encabezado>
         <main>
             <div class="container">
-                <div id="demo" class="carousel slide" data-bs-wrap="false" data-bs-ride="carousel">
+                <div id="demo" class="carousel slide" data-bs-wrap="false" data-bs-ride="carousel" data-bs-interval="false">
                     <carrusel class="carousel-inner"> </carrusel>
                     <a class="carousel-control-prev" href="#demo" data-bs-slide="prev">
                         <i class="fas fa-arrow-left"></i>
@@ -49,28 +43,33 @@
             const carrusel = document.querySelector("carrusel");
             const encabezado = document.querySelector("encabezado");
 
-            async function astros() {
+            async function sminimenstruando() {
                 const consulta = await fetch("https://raw.githubusercontent.com/conyln/minimenstruacion/refs/heads/main/datos.json");
                 const data = await consulta.json();
                 console.log(data);
+
                 if (x) {
+                    // Recorrer los slides y cargarlos en el carrusel
                     data[x]["cuerpo"].forEach((d, i) => {
                         carrusel.innerHTML += `
-              <div class="carousel-item ${i === 0 ? "active" : ""}">
-                <div class="carousel-caption">
-                  <p>${data[x]["cuerpo"][i]}</p>
-                  <img src="https://conyln.github.io/minimenstruacion/img/${data[x]["img"][i]}" class="img-fluid" />
-                  </div>
-              </div>`;
+                            <div class="carousel-item ${i === 0 ? "active" : ""}">
+                                <div class="carousel-caption">
+                                    <p>${data[x]["cuerpo"][i]}</p>
+                                    <img src="https://conyln.github.io/minimenstruacion/img/${data[x]["img"][i]}" class="img-fluid" />
+                                </div>
+                            </div>`;
                     });
 
-                    encabezado.innerHTML = `
-                    <h1>${data[x]["titulo"]}</h1>`;
+                    // Colocar el título en el encabezado
+                    encabezado.innerHTML = `<h1>${data[x]["titulo"]}</h1>`;
                 } else {
+                    // Redirigir si no se encuentra el parámetro 'data'
                     window.location.href = "index.html";
                 }
             }
-            astros().catch((error) => console.error(error));
+
+            // Llamar la nueva función
+            sminimenstruando().catch((error) => console.error(error));
         </script>
     </body>
 </html>
