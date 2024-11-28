@@ -1,4 +1,3 @@
-
 /* Importar fuentes desde Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=M+PLUS+Rounded+1c&display=swap");
 
@@ -13,16 +12,13 @@ body {
     background-color: hotpink; /* Color de fondo */
 }
 
-
-
-encabezado{ 
+encabezado {
     color: deeppink;
     padding-top: 3%;
     padding-bottom: 2%;
     display: block;
     text-align: center; /* Centers text horizontally */
 }
-
 
 /* Estilos del grid de Bento */
 .bento-grid {
@@ -105,7 +101,6 @@ encabezado{
     line-height: 2rem; /* Altura de línea, espacio entre las líneas de texto */
 }
 
-
 /* Estilos para las imágenes dentro de la leyenda del carrusel */
 .carousel-caption img {
     width: 25rem; /* La imagen tendrá un ancho de 25rem */
@@ -113,7 +108,6 @@ encabezado{
     margin-bottom: 2rem; /* Un margen de 2rem debajo de la imagen */
     z-index: -1; /* Coloca la imagen detrás del texto de la leyenda */
 }
-
 
 /* Estilos para el pie de la imagen en el carrusel */
 #image-caption {
@@ -155,8 +149,6 @@ encabezado{
     justify-content: center; /* Centra el contenido horizontalmente */
 }
 
-
-
 /* Botón triangular izquierdo */
 .carousel-control-prev::before {
     content: "";
@@ -179,18 +171,13 @@ encabezado{
     border-color: transparent transparent transparent pink;
 }
 
-
-
 /* Botón de retroceso (izquierda) */
 .carousel-control-prev::before {
     content: ""; /* No tiene contenido visible, solo usa bordes */
     display: block;
 }
 
-
-
 .carousel-inner {
     height: 500px; /* Set a fixed height for the carousel */
     overflow: hidden; /* Prevent overflowing content */
 }
-
