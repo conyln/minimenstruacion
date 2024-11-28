@@ -1,40 +1,40 @@
 [
     {
         "titulo": "¿Qué es la menstruación?",
-        "img_prev_1": "",
-        "img_prev_2": "",
+        "img_prev_1": "prev_1_menstruacion.jpg",
+        "img_prev_2": "prev_2_menstruacion.jpg",
         "cuerpo": [
             "La menstruación es una fase del ciclo menstrual 🤓",
             "La menstruación es la expulsión del endometrio por la vagina y no por la uretra, el endometrio saldrá como una mezcla de sangre y tejidos, puede ser líquido y viscoso 🩸",
             "¡Todo estará bien! 😄 Tu útero expulsará el endometrio para formar uno nuevo el próximo mes"
         ],
-        "img": []
+        "img": ["1_menstruacion.png", "2_menstruacion.png", "3_menstruacion.png"]
     },
 
     {
         "titulo": "¿Qué es la menarquia?",
-        "img_prev_1": "",
-        "img_prev_2": "",
+        "img_prev_1": "prev_1_menarquia.jpg",
+        "img_prev_2": "prev_2_menarquia.jpg",
         "cuerpo": [
             "La menarquía es la primera menstruación de tu vida 😮 Puede ocurrir en cualquier momento, entre los 9 años a 14 años",
             "La menarquia significa que tu útero se está desarrollando bien y que tu cuerpo comenzará a cambiar ☺️",
             "La menarquia no significa que te has convertido en una señorita ni mujercita 🤗 ¡Eres una niña en crecimiento! 💪"
         ],
-        "img": ["", "", ""]
+        "img": ["1_menarquia.png", "2_menarquia.png", "3_menarquia.png"]
     },
 
     {
         "titulo": "¿Qué es el ciclo menstrual?",
-        "img_prev_1": "",
-        "img_prev_2": "",
-        "cuerpo": ["", "", ""],
+        "img_prev_1": "prev_1_ciclo.jpg",
+        "img_prev_2": "prev_2_ciclo.jpg",
+        "cuerpo": ["a", "b", "c"],
         "img": ["1_ciclo.png", "2.ciclo.png", "3.ciclo.png", "4.ciclo.png", "5.ciclo.png"]
     },
 
     {
         "titulo": "¿Qué deberé usar durante la menstruación",
-        "img_prev_1": "",
-        "img_prev_2": "",
+        "img_prev_1": "prev_1_productos.jpg",
+        "img_prev_2": "prev_1_productos.jpg",
         "cuerpo": [
             "Para contener el flujo menstrual durante la menstruación, debes usar productos de higiene menstrual que sean cómodos para ti 🩸🫧",
             "Toallas higiénicas desechables: Son unas almohadillas suaves, que se adhieren a la ropa interior. Se cambian varias veces al día. Cuando se terminan de usar, se se botan en la basura 🚮",
