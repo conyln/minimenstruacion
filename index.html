@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <!-- Meta Tags -->
         <!-- Primary Meta Tags -->
         <title>MiniMENSTRUACIÓN</title>
         <meta name="title" content="MiniMENSTRUACIÓN" />
@@ -33,13 +34,12 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-pink bg-pink">
             <div class="container-fluid">
-                <a class="navbar-brand text-white" href="#">MiniMENSTRUACIÓN</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav"></ul>
-                </div>
+                <!-- Logo with transparent background -->
+                <a class="navbar-brand" href="https://minimenstruacion.cl/">
+                    <img src="minim_logo_claro.svg" alt="MINIMENSTRUACIÓN" height="60" />
+                </a>
+                <!-- "Inicio" button -->
+                <a href="https://minimenstruacion.cl/" class="btn btn-light">inicio</a>
             </div>
         </nav>
 
@@ -59,7 +59,7 @@
                 data.forEach(
                     (d, i) =>
                         (principal.innerHTML += `
-                            <div class="card" style="grid-column: span 2; grid-row: span 2;">
+                            <div class="card" style="grid-column: span 1; grid-row: span 2;">
                                 <div class="card-img-overlay initial-img" style="background-image: url(https://conyln.github.io/minimenstruacion/img/${d.img_prev_1});"></div>
                                     <div class="card-img-overlay hover-img" style="background-image: url(https://conyln.github.io/minimenstruacion/img/${d.img_prev_2});"></div>
                                     <a href="single.html?data=${i}" class="stretched-link"></a>
