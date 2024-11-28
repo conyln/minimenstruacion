@@ -25,8 +25,8 @@
         "titulo": "¿Qué es el ciclo menstrual?",
         "img_prev_1": "prev_1_ciclo.jpg",
         "img_prev_2": "prev_2_ciclo.jpg",
-        "cuerpo": ["a", "b", "c"],
-        "img": ["1_ciclo.png", "2.ciclo.png", "3.ciclo.png", "4.ciclo.png", "5.ciclo.png"]
+        "cuerpo": ["1", "2", "3", "4", "5"],
+        "img": ["1_ciclo.png", "2_ciclo.png", "3_ciclo.png", "4_ciclo.png", "5_ciclo.png"]
     },
     {
         "titulo": "¿Qué deberé usar durante la menstruación",
